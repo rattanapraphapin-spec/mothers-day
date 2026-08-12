@@ -2,31 +2,98 @@
 <html lang="th">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>สุขสันต์วันแม่ 💗</title>
+
 <style>
-body{margin:0;min-height:100vh;display:flex;justify-content:center;align-items:center;font-family:Arial;background:#ffe0eb;color:#633747}
-.card{width:90%;max-width:420px;padding:28px;text-align:center;background:white;border-radius:30px}
-.baby{width:100%;border-radius:20px}
-h1{font-size:30px}
-p{font-size:17px;line-height:1.8}
-button{border:0;border-radius:30px;padding:14px 25px;background:#e783a5;color:white;font-size:16px;margin:5px}
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:Arial,sans-serif;
+  background:linear-gradient(135deg,#fff3f8,#ffe0eb);
+  color:#633747;
+}
+
+.card{
+  width:90%;
+  max-width:420px;
+  padding:28px;
+  text-align:center;
+  background:white;
+  border-radius:30px;
+  box-shadow:0 15px 40px rgba(120,50,80,.2);
+}
+
+.baby{
+  width:100%;
+  max-height:350px;
+  object-fit:cover;
+  border-radius:20px;
+  margin-bottom:15px;
+}
+
+h1{
+  font-size:30px;
+  margin:10px 0 18px;
+}
+
+p{
+  font-size:17px;
+  line-height:1.8;
+}
+
+.heart{
+  font-size:42px;
+  margin:12px;
+}
+
+button{
+  border:0;
+  border-radius:30px;
+  padding:14px 25px;
+  background:#e783a5;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+  cursor:pointer;
+}
 </style>
 </head>
+
 <body>
+
+<audio autoplay loop>
+  <source src="ssstik.io_1786520777794.mp3" type="audio/mpeg">
+</audio>
+
 <div class="card">
-<img src="IMG_3767.jpeg" class="baby">
-<h1>สุขสันต์วันแม่นะคะ 💗</h1>
-<p>ขอบคุณแม่ที่คอยดูแลหนูมาตลอดนะคะ<br>หนูรักแม่ที่สุดเลยนะคะ 💗</p>
 
-<button onclick="alert('ขอให้แม่มีสุขภาพร่างกายแข็งแรง 💗')">
-ขอให้แม่มีสุขภาพร่างกายแข็งแรง
-</button>
+  <img src="IMG_3767.jpeg" class="baby" alt="รูปของหนูตอนเด็ก">
 
-<button onclick="window.open('https://youtu.be/acSrQ-Dwt2E','_blank')">
-🎵 เปิดเพลง
-</button>
+  <h1>สุขสันต์วันแม่นะคะ 💗</h1>
+
+  <p>
+    ขอบคุณแม่ที่คอยดูแลหนูมาตลอดนะคะ
+    ขอบคุณสำหรับความรัก ความห่วงใย
+    และทุกสิ่งทุกอย่างที่แม่มอบให้หนู
+  </p>
+
+  <div class="heart">💗</div>
+
+  <p>
+    หนูรักแม่ที่สุดเลยนะคะ
+  </p>
+
+  <button onclick="alert('ขอให้แม่มีสุขภาพร่างกายแข็งแรง 💗')">
+    ขอให้แม่มีสุขภาพร่างกายแข็งแรง
+  </button>
 
 </div>
+
 </body>
 </html>
